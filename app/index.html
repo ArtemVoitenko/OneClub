@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>One Club</title>
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="theme-color" content="#000">
+		<link rel="stylesheet" href="css/main.min.css">
+	</head>
+	<body>
+		<header class="mainHeader">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-5 col-sm-12">
+						<a href="#" class="logo hidden">
+							<img class='img-responsive' src="img/logo.png" alt="OneClub">
+						</a>
+						<div class="smHeader">
+							<a href="#" class="showNav"><i class="fas fa-bars"></i></a>
+							<a href="#" class="logo2">
+								<img  src="img/logo2.png" alt="OneClub">
+							</a>
+							<a href="#" class="showCart"><i class="fas fa-shopping-bag"></i>
+							</a>
+						</div>
+					</div>
+					<div class=" col-md-7 hidden">
+						<ul class="headerLinks">
+							<li><a href="tel:+380443590899"><i class="fas fa-phone"></i>+380 44 359-08-99  </a><i class="fas fa-angle-down"></i><br><span>Пн-Вс: 9:00 - 21:00  </span></li>
+							<li><a href=""><i class="fas fa-user"></i>Войти</a></li>
+							<li><a href=""><i class="fas fa-shopping-cart"></i>Корзина</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-7 col-sm-12">
+						<div class="saleButtons">
+							<a class='shares' href="#"><i class="far fa-clock"></i>Акции</a>
+							<a class='catalog' href="#">Каталог</a>
+						</div>
+					</div>
+					<div class="col-md-5 hidden">
+						<div class="search">
+							<form action="#" class="searchForm">
+								<input type="text " placeholder='Поиск...'>
+								<button type='submit'><i class="fas fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="mainNav">
+				<ul>
+					<li><a href="#">женщинам</a></li>
+					<li><a href="#">мужчинам</a></li>
+					<li><a href="#">детям</a></li>
+					<li><a href="#">косметика</a></li>
+					<li><a href="#">для дома</a></li>
+					<li><a href="#">бренды</a></li>
+				</ul>
+				<a href="#" class="hideNav"><i class="fas fa-times"></i></a>
+			</nav>
+		</header>
+		<section class="contentSection">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-7 ">
+						<ul class="routing">
+							<li><a href="#">Главная страница</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Категория 1</a></li>
+							<li><a class='activeRout' href="#">Costa Patch Pocket Denim Top</a></li>
+						</ul>
+						<div class="mainSlider">
+							<div class="row">
+								<div class="col-md-3 col-sm-12 navForBigSlide">
+									
+										<div class="navSlide"><img src="img/smDress1.jpg" alt=""></div>
+										<div class="navSlide"><img src="img/smDress2.jpg" alt=""></div>
+										<div class="navSlide"><img src="img/smDress3.jpg" alt=""></div>
+										<div class="navSlide"><img src="img/smDress4.jpg" alt=""></div>
+										<div class="navSlide"><img src="img/smDress5.jpg" alt=""></div>
+									
+								</div>
+								<div class="col-md-9 col-sm-12 ">
+									<div class="bigSlide">
+										<div><img data-zoom-image="img/bigDress1.jpg" id='zoom' class='img-responsive' src="img/bigDress1.jpg" alt=""> </div>
+										<div><img class='zoom img-responsive' src="img/bigDress2.jpg" alt=""> </div>
+										<div><img class='zoom img-responsive' src="img/bigDress3.jpg" alt=""> </div>
+										<div><img class='zoom img-responsive' src="img/bigDress4.jpg" alt=""> </div>
+										<div><img class='zoom img-responsive' src="img/bigDress5.jpg" alt=""> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 ">
+						<div class="timer"><i class="far fa-clock"></i>
+							<span>До конца распродажи</span>
+							<div id="clockDiv"></div>
+						</div>
+						<div class="product">
+							<div class="product-item">
+								<div class="productName">
+									<h4>Current Elliott</h4>
+									<p>Costa Patch Pocket Denim Top</p>
+									<span class="previousPrice">
+									30 000 грн</span>
+									<span class="price">15 000грн</span>
+									<div class="sale">
+										-50%
+									</div>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="productColor">
+									<p class='colorName'><b>Цвет:</b> <span></span></p>
+									<a href="#" data-color='Серый' class="colorBox color1"></a>
+									<a href="#" data-color='Синий' class="colorBox color2"></a>
+									<a href="#" data-color='Оранжевый' class="colorBox color3"></a>
+									<a href="#" data-color='Красный' class="colorBox color4"></a>
+									<a href="#" data-color='Салатовый' class="colorBox color5"></a>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="productSize">
+									<p class='size'><b>Размер:</b></p>
+									<a href="#" class="sizeTable">Таблица размеров</a>
+									<br>
+									
+									<a href="#" class="sizeBox"><span>xs</span></a>
+									<a href="#" class="sizeBox"><span>s</span></a>
+									<a href="#" class="sizeBox disabledSize"><span>m</span></a>
+									<a href="#" class="sizeBox disabledSize"><span>l</span></a>
+									<a href="#" class="sizeBox disabledSize"><span>xl</span></a>
+									<a href="#" class="tryOn">Примерить онлайн</a>
+								</div>
+							</div>
+							<div class="product-item">
+								<div class="productNumber">
+									<p><b>Количество:</b></p>
+									<div class="counterWindow">
+										<a href="#" class="countButton minus">-</a>
+										<div class="counter"><input readonly value='1' type="text"></div>
+										<a href="#" class="countButton plus">+</a>
+									</div>
+									
+								</p>
+								<a  href="#" class="buyButtons favourites"><i class="fas fa-heart"></i> в избранное</a>
+								<a  href="#" class="buyButtons addToCart">
+									<i class="fas fa-shopping-bag"></i> добавить в корзину
+								</a>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="checkout">
+								<p><i class="fas fa-phone"></i><b>Оформить заказ по телефону</b></p>         		<a href="tel:+38 095 458-98-46" class="tel">+38 095 458-98-46</a> <span>или</span>
+								<a href="tel: +38 044 359-08-99" class="tel"> +38 044 359-08-99</a>
+								<a href="#" class="availability"><i class="fas fa-map-marker-alt"></i>Наличие в бутиках One Club</a>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="accordeon">
+								<div class='accordeonTitle'>
+									<h5 >Описание и детали</h5>
+									<span href="#" class="showDetails">+</span>
+								</div>
+								
+								<div class="accordeonDetails">
+									<p><b>Состав:</b> 100% трикотаж</p>
+									<p><b>Сезон:</b> демисезон</p>
+									<p><b>Детали: </b>Облегающая модель выполнена из гладкого
+									трикотажа.</p>
+									<p>Код товара: <span>1234-5678-8765-4321</span></p>
+								</div>
+								<div class='accordeonTitle'><h5 >Измерения</h5>
+									<span href="#" class="showDetails">+</span>
+								</div>
+								
+								<div class="accordeonDetails">
+									<p><b>Состав:</b> 100% трикотаж</p>
+									<p><b>Сезон:</b> демисезон</p>
+									<p><b>Детали: </b>Облегающая модель выполнена из гладкого
+									трикотажа.</p>
+									<p>Код товара: <span>1234-5678-8765-4321</span></p>
+								</div>
+								
+								<div class='accordeonTitle'><h5 >Доставка и возврат </h5>
+									<span href="#" class="showDetails">+	</span>
+								</div>
+								
+								<div class="accordeonDetails">
+									<p><b>Состав:</b> 100% трикотаж</p>
+									<p><b>Сезон:</b> демисезон</p>
+									<p><b>Детали:</b> Облегающая модель выполнена из гладкого
+									трикотажа.</p>
+									<p><b>Код товара:</b><span> 1234-5678-8765-4321</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="shareSoc">
+							<span>Поделиться</span> <a href="#" class="socialLink"><i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" class="socialLink"><i class="fab fa-vk"></i>
+						</a>
+						<a href="#" class="socialLink"><i class="fab fa-google-plus-g"></i>
+						</a>
+						<a href="#" class="socialLink"><i class="fab fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<section class="similarProductsSection">
+<div class="container">
+
+<div class="similarDiv ">
+	<h3>
+	Похожие товары
+	</h3>
+	<div class="row">
+		<div class="col-lg-3 col-md-6">
+			<div class="similar-item"><img src="img/similar.jpg" alt="">
+				<div class="similar-item-info">
+					<p><b>Tanya Taylor</b></p>
+					
+					<p>Andy Striped Mini Skirt</p>
+					<span class="previousPrice">
+					30 000 грн</span>
+					<span class="price">15 000грн</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="similar-item"><img src="img/similar.jpg" alt="">
+				<div class="similar-item-info">
+					<p><b>Tanya Taylor</b></p>
+					
+					<p>Andy Striped Mini Skirt</p>
+					<span class="previousPrice">
+					30 000 грн</span>
+					<span class="price">15 000грн</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="similar-item"><img src="img/similar.jpg" alt="">
+				<div class="similar-item-info">
+					<p><b>Tanya Taylor</b></p>
+					
+					<p>Andy Striped Mini Skirt</p>
+					<span class="previousPrice">
+					30 000 грн</span>
+					<span class="price">15 000грн</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="similar-item"><img src="img/similar.jpg" alt="">
+				<div class="similar-item-info">
+					<p><b>Tanya Taylor</b></p>
+					
+					<p>Andy Striped Mini Skirt</p>
+					<span class="previousPrice">
+					30 000 грн</span>
+					<span class="price">15 000грн</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="also">
+	<nav class="alsoNav">
+		<ul >
+			<li><b>Смотрите также:</b></li>
+			<li><a href="#">Одежда</a></li>
+			<li><a href="#">Трикотаж</a></li>
+			<li><a href="#">Шелк</a></li>
+			<li><a href="#">Все товары бренда Philipp Plein</a></li>
+		</ul>
+	</nav>
+</div>
+
+
+</div>
+</section>
+<section class="infoSection">
+<div class="container">
+<div class="row">
+	<div class="col-md-4 col-sm-12 infoBlock">
+		<h6>Ценность</h6>
+		<p>
+			Мы предлагаем подлинные
+			качественные товары люксовых
+			брендов по доступным ценам
+		</p>
+	</div>
+	<div class="col-md-4 col-sm-12 infoBlock">
+		<h6>Доставка</h6>
+		<p>
+			Вы можете примерить вещи
+			в одном из наших <a href="#">бутиков</a> или
+			заказать доставку по любому
+			удобному адресу
+		</p>
+	</div>
+	<div class="col-md-4 col-sm-12 infoBlock">
+		<h6>Помощь</h6>
+		<p>Время работы службы поддержки:
+			ежедневно с 10:00 до 21:00.
+			+38 044 359-08-99, +38 095 458-98-46
+		</p>
+	</div>
+</div>
+</div>
+</section>
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 col-sm-4 col-xs-12"><ul class="footerNav">
+				<li><b>Каталог</b></li>
+				<li><a href="">женщинам</a></li>
+				<li><a href="">мужчинам</a></li>
+				<li><a href="">детям</a></li>
+				<li><a href="">для дома</a></li>
+				<li><a href="">бренды</a></li>
+			</ul></div>
+			<div class="col-md-3 col-sm-4 col-xs-12"><ul class="footerNav">
+				<li><b>покупателям</b></li>
+				<li><a href="">Оплата</a></li>
+				<li><a href="">Возврат</a></li>
+				<li><a href="">Доставка</a></li>
+				<li><a href="">Оферта</a></li>
+				<li><a href="">Поддержка</a></li>
+			</ul></div>
+			<div class="col-md-3 col-sm-4 col-xs-12"><ul class="footerNav">
+				<li><b>О нас</b></li>
+				<li><a href="">О проекте</a></li>
+				<li><a href="">Вакансии</a></li>
+				<li><a href="">Партнеры</a></li>
+				<li><a href="">Контакты</a></li>
+				<li><a href="">FAQ</a></li>
+			</ul></div>
+			<div class="col-md-3 col-sm-12 col-xs-12 footerMedia">
+				<img src="img/FooterLogo.png" alt="One Club" class="img-responsive">
+				<p>© 2016 One Club 2.0 <br>
+				All Right reserved</p>
+				<div class="footerSocial">
+					<a href="#"><i class="fab fa-facebook-f"></i>
+
+</a>
+					<a href="#"><i class="fab fa-instagram"></i>
+
+</a>
+					<a href="#"><i class="fab fa-twitter"></i>
+
+</a>
+					<a href="#"><i class="fab fa-pinterest-p"></i>
+
+</a>
+				</div>
+				<div class="payments">
+					<a href="#"><i class="fab fa-cc-visa"></i>
+
+</a>
+					<a href="#"><i class="fab fa-cc-mastercard"></i>
+
+</a>
+					<a href="#"><i class="fab fa-cc-paypal"></i>
+
+</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+<script src="js/scripts.min.js"></script>
+</body>
+</html>
